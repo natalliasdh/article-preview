@@ -1,0 +1,112 @@
+                html,
+                body {
+                    height: 100%;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 13px;
+                    line-height: 20px;
+                    letter-spacing: 0.12px;
+                    box-sizing: border-box;
+                }
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                #wrap {
+                    min-height: 100%;
+                    margin-bottom: -50px;
+                }
+                
+                .push,
+                footer {
+                    height: 50px;
+                }
+                
+                footer {
+                    padding: 5px 32px 5px 32px;
+                    font-weight: 200;
+                    text-align: center;
+                    font-size: 11px;
+                }
+                
+                main {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                
+                #image img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+                h1 {
+                    color: #48556A;
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-bottom: 12px;
+                }
+                
+                p {
+                    font-weight: 200;
+                    color: #6E8098;
+                }
+                
+                h2 {
+                    font-weight: 700;
+                    font-size: 13px;
+                    color: #48556A;
+                }
+                
+                #info {
+                    margin: 36px 32px 52px 32px;
+                }
+                
+                #author {
+                    margin: auto 32px 20px 32px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .photo img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                }
+                
+                .photo {
+                    margin-right: 16px;
+                    overflow: auto;
+                }
+                
+                .name {
+                    flex-grow: 1;
+                }
+                
+                a {
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: #48556A;
+                }
+                
+                a:hover {
+                    text-decoration: underline;
+                }
+                
+                .share {
+                    background-color: #ECF2F8;
+                    border-radius: 100%;
+                    width: 32px;
+                    height: 32px;
+                }
+                
+                .share img {
+                    width: 15px;
+                    height: 13px;
+                    margin: 8px 9px;
+                }
